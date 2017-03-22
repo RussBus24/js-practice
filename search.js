@@ -1,6 +1,6 @@
 var numbers = [1, 10, 7, 5, 3];
 
-var swap = function(array, i, j) {
+function swap(array, i, j) {
     var tmp = array[i];
     array[i] = array[j];
     array[j] = tmp;
